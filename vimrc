@@ -31,6 +31,10 @@ filetype plugin indent on
 
 runtime! init/**.vim
 
+let g:go_fmt_command = "goimports"
+
+" Shift + i toggles too
+" let NERDTreeShowHidden=1
 
 " Machine-local vim settings - keep this at the end
 " --------------------------
