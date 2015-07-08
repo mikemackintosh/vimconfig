@@ -152,3 +152,9 @@
 [submodule "bundle/vim-twig"]
 	path = bundle/vim-twig
 	url = git@github.com:lunaru/vim-twig.git
+[submodule "vim-material-theme"]
+	path = vim-material-theme
+	url = https://github.com/jdkanani/vim-material-theme
+[submodule "bundle/vim-material-theme"]
+	path = bundle/vim-material-theme
+	url = https://github.com/jdkanani/vim-material-theme

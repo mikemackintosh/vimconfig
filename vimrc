@@ -22,8 +22,11 @@ call pathogen#helptags()
 call pathogen#runtime_append_all_bundles()
 
 set nocompatible                " Don't maintain compatibility with vi
-syntax on                       " Highlight known syntaxes
 filetype plugin indent on
+
+syntax enable
+set background=dark
+colorscheme material-theme
 
 
 " Source initialization files
@@ -34,7 +37,7 @@ runtime! init/**.vim
 let g:go_fmt_command = "goimports"
 
 " Shift + i toggles too
-" let NERDTreeShowHidden=1
+let NERDTreeShowHidden=1
 
 " Machine-local vim settings - keep this at the end
 " --------------------------
